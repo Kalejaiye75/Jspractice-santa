@@ -32,6 +32,21 @@ button {
 p {
     font-size:3rem;
 }
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
 #footer {
     text-align: center;
     margin-top: .5rem;

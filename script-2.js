@@ -13,7 +13,7 @@ titleField();
 let loginForm = document.getElementById("login")
     loginForm.addEventListener("submit", (e) => {
         e.preventDefault();
-        alert("You are now logged in")
+        
         let email = document.getElementById("emaill");
         let passWord = document.getElementById("password");
         
